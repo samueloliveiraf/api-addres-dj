@@ -38,10 +38,6 @@ Copy code
   }
 }
 
-## Deploy com Gunicorn e Supervisor
-
-O projeto está configurado para ser executado com Gunicorn. Um exemplo de configuração do Supervisor para este projeto pode ser encontrado no arquivo supervisor.conf.
-
 ## Contribuições
 
 Pull requests são bem-vindos. Para mudanças importantes, por favor abra uma issue primeiro para discutir o que você gostaria de mudar.
