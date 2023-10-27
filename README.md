@@ -39,13 +39,53 @@ Exemplo:
 
 json
 Copy code
-{
-  "data": {
-    "id": 2510808,
-    "nome": "Patos",
-    ...
-  }
-}
+
+``` sh
+[
+	{
+		"data": {
+			"id": 2510808,
+			"nome": "Patos",
+			"microrregiao": {
+				"id": 25004,
+				"nome": "Patos",
+				"mesorregiao": {
+					"UF": {
+						"id": 25,
+						"nome": "Paraíba",
+						"sigla": "PB",
+						"regiao": {
+							"id": 2,
+							"nome": "Nordeste",
+							"sigla": "NE"
+						}
+					},
+					"id": 2501,
+					"nome": "Sertão Paraibano"
+				}
+			},
+			"regiao-imediata": {
+				"id": 250009,
+				"nome": "Patos",
+				"regiao-intermediaria": {
+					"UF": {
+						"id": 25,
+						"nome": "Paraíba",
+						"sigla": "PB",
+						"regiao": {
+							"id": 2,
+							"nome": "Nordeste",
+							"sigla": "NE"
+						}
+					},
+					"id": 2503,
+					"nome": "Patos"
+				}
+			}
+		}
+	}
+]
+```
 
 ## Contribuições
 
