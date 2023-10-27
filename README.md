@@ -20,12 +20,7 @@ Exemplo de chamada:
 
 bash
 Copy code
-curl --request GET \
-  --url https://api-address.aplicacao-tech.com.br/search/ \
-  --header 'Content-Type: application/json' \
-  --data '{
-	"nome": "Patos"
-}'
+curl --request GET \ --url https://api-address.aplicacao-tech.com.br/search/ \ --header 'Content-Type: application/json' \ --data '{"nome": "Patos"}'
 
 ## Resposta:
 
